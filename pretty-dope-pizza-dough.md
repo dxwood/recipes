@@ -1,5 +1,7 @@
 # Pretty Dope Pizza Dough
 
+If you feel like you're in a mood for a decent home made thick crust pizza, this is the recipe for you.
+
 ## Ingredients
 
  - [ ] 2 teaspoons of activa dry yeast
