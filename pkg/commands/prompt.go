@@ -1,6 +1,9 @@
 package commands
 
-import "github.com/AlecAivazis/survey/v2"
+import (
+	"github.com/AlecAivazis/survey/v2"
+	"github.com/chriscoffee/recipes/recipes"
+)
 
 func defaultPrompt() error {
 	var selection string
@@ -20,6 +23,6 @@ func defaultPrompt() error {
 	}
 	switch selection {
 	case "Create a new recipe":
-		recipe.CreateRecipe()
+		recipes.CreateRecipe()
 	}
 }

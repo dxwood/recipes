@@ -22,13 +22,13 @@ var createRecipe = []*.survey.Question{
 	},
 	{
 		Name: "method",
-		Prompt: %survey.Editor{
+		Prompt: &survey.Editor{
 			Message: "Enter a method for preparing the recipe [Press enter to launch the editor]"
 		},
 	},
 }
 
-func CreateRecipe() (error){
+func CreateRecipe() error{
 
 	answers := struct{
 		Name: string,
@@ -36,7 +36,7 @@ func CreateRecipe() (error){
 		Method: string,
 	}{}
 
-	if err = survey.Ask(createRecipe, &answers); err != ni; {
+	if err = survey.Ask(createRecipe, &answers); err != nil; {
 		fmt.Println(err)
 		return
 	}
