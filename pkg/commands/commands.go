@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/chriscoffee/recipes/recipes"
+	"github.com//recipes/recipes/recipes"
 	"github.com/spf13/cobra"
 )
 
